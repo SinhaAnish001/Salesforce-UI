@@ -1,0 +1,294 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    }
+
+#header{
+    height: 15%;
+    width: 100%;
+    background-color: aliceblue;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+#logo{
+    height: 65%;
+    align-items: center;
+    margin: 30px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.texts{
+    color: rgb(20, 20, 91);
+    display: flex;
+    font-size: large;
+}
+
+.texts:hover{
+    color: rgb(85, 73, 217);
+}
+
+#contactDetails{
+    color: rgb(20, 20, 91) ;
+    text-align: center;
+    margin-left : 30px;
+}
+
+#contactDetails:hover{
+    color: rgb(85, 73, 217);
+}
+
+.icons{
+    color: rgb(20, 20, 91);
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+.icons:hover{
+    background-color: rgb(221, 220, 236);
+    color: rgb(85, 73, 217);
+}
+
+#login{
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+    color: rgb(20, 20, 91);
+}
+
+#login:hover{
+    color: rgb(85, 73, 217);
+    background-color: rgb(221, 220, 236);
+}
+
+#try{
+    color: aliceblue;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#try:hover{
+    background-color: rgb(6, 58, 6);
+}
+
+#fakeheader{
+    height: 15%;
+    width: 100%;
+}
+
+#page1{
+    height: 85%;
+    width: 100%;
+    background-color: white;
+}
+
+#strip{
+    width: 100%;
+    height: 7%;
+    background-color: rgb(206, 177, 50);
+    font-weight: bold;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+#register{
+    margin-left: 25px;
+}
+
+#register:hover{
+    color: rgb(70, 60, 175) ;
+}
+
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;
+    background-image: url(https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-logos-bg-2.png?resize=2048,414);
+}
+
+#box1{
+    width: 50%;
+    height: 100%;
+    color:rgb(20, 20, 121);
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#btns1{
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    width: 25%;
+    padding: 7px ;
+    color: rgb(31, 80, 177);
+    display: flex ;
+    border: 1px solid rgb(40, 51, 201);
+    background-color: white;
+}
+
+#btns1:hover{
+    background-color: rgb(33, 58, 107) ;
+    color: white;
+}
+
+#btns2{
+    border-radius: 10px;
+    margin: 10px;
+    width: 22%;
+    padding: 7px ;
+    color: white;
+    text-align: center;
+    display: flex ;
+    border: 1px solid white;
+    background-color: rgb(27, 67, 148);   
+}
+
+#btns2:hover{
+    background-color: rgb(80, 114, 183) ;
+    color: rgb(33, 58, 107);
+    border: rgb(13, 33, 74);
+}
+
+#box2{
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+    background-image: url(https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/12/php-free-trial-mobile-inr2000-940w.png?resize=768,654);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    
+}
+
+#tagline{
+    width: 100%;
+    height: 18%;
+    color: rgb(20, 20, 91);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page2{
+    height: 85%;
+    width: 100%;
+    background-color: white;
+    background-image: url(https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=2048,625);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.products{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+#boxA{
+    border-radius: 10px;
+    margin: 10px;
+    width: 18%;
+    padding: 7px;
+    color: rgb(20, 20, 91);
+    border: 1px solid lightblue;
+    background-image: url(https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-1.jpg?resize=768,433);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#boxB{
+    border-radius: 10px;
+    margin: 10px;
+    width: 18%;
+    padding: 7px ;
+    color: rgb(20, 20, 91);
+    border: 1px solid lightblue;
+    background-image: url(https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-2.jpg?resize=768,433);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#boxC{
+    border-radius: 10px;
+    margin: 10px;
+    width: 18%;
+    padding: 7px ;
+    color: rgb(20, 20, 91);
+    border: 1px solid lightblue;
+    background-image: url(https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-3.jpg?resize=768,433);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}   
+
+#boxD{
+    border-radius: 10px;
+    margin: 10px;
+    width: 18%;
+    padding: 7px ;
+    color: rgb(20, 20, 91);
+    border: 1px solid lightblue;
+   background-image: url(https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-4.jpg?resize=768,433);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+#title{
+    text-align: center;
+    color: rgb(20, 20, 91);
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 60%;
+}
+
+#title:hover{
+    color: rgb(50, 34, 227);
+}
+
+#theme{
+    padding-top: 10%;
+    text-align: center;
+}
+
+#learn{
+    padding-top: 10%;
+    text-align: center;
+}
+
+#learn:hover{
+    color: rgb(50, 34, 227);
+}
